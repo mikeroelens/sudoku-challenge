@@ -1,4 +1,4 @@
-# Setter Challenge - Sudoku
+Sudoku Challenge
 
 ##### How to run:
 1. Clone repo
