@@ -1,0 +1,37 @@
+{
+    "extends": [
+        "airbnb",
+        "plugin:flowtype/recommended",
+        "prettier"
+    ],
+    "plugins": [
+        "flowtype",
+        "immutable",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": 2,
+        "semi": [
+            2,
+            "never"
+        ],
+        "no-unexpected-multiline": 2,
+        "import/prefer-default-export": 0,
+        "camelcase": 0,
+        "no-use-before-define": 0,
+        "radix": [
+            2,
+            "as-needed"
+        ],
+        "immutable/no-mutation": 2,
+        "react/jsx-filename-extension": 0,
+        "react/require-default-props": 0,
+        "react/no-unescaped-entities": 0,
+        "react/no-danger": 0,
+        "no-console": 0,
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+    },
+    "env": {
+        "jest": true
+    }
+}

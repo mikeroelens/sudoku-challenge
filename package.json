@@ -1,0 +1,46 @@
+{
+  "name": "setter-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --quiet -w src/ --exec \"babel-node src/\"",
+    "flow": "flow",
+    "flow-omit-libs": "flow check --show-all-errors | flow-result-checker",
+    "lint": "eslint src",
+    "lint-watch": "nodemon -w src/ --exec \"yarn lint\"",
+    "lint-fix": "eslint --fix src",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-flowtype": "^3.2.1",
+    "eslint-plugin-immutable": "^1.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint_d": "^7.2.0",
+    "flow-bin": "^0.92.0",
+    "flow-result-checker": "^1.1.0",
+    "jest": "^24.0.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.3"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "js-option": "https://mikeroelens-st:Cbe_1UBHaRshjdAxQafe@gitlab.com/scholartree/js-option.git#master"
+  }
+}
