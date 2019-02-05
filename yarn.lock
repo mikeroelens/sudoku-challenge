@@ -2740,9 +2740,9 @@ js-levenshtein@^1.1.3:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
 
-"js-option@https://mikeroelens-st:Cbe_1UBHaRshjdAxQafe@gitlab.com/scholartree/js-option.git#master":
+"js-option@https://github.com/mikeroelens/js-option#master":
   version "0.0.3"
-  resolved "https://mikeroelens-st:Cbe_1UBHaRshjdAxQafe@gitlab.com/scholartree/js-option.git#b9e16e860d3f3767750adcfa72a80ef9c54d3b71"
+  resolved "https://github.com/mikeroelens/js-option#b9e16e860d3f3767750adcfa72a80ef9c54d3b71"
   dependencies:
     lodash.isequal "^4.5.0"
 

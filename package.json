@@ -41,6 +41,6 @@
   },
   "dependencies": {
     "chalk": "^2.4.2",
-    "js-option": "https://mikeroelens-st:Cbe_1UBHaRshjdAxQafe@gitlab.com/scholartree/js-option.git#master"
+    "js-option": "https://github.com/mikeroelens/js-option#master"
   }
 }
